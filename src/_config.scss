@@ -1,3 +1,32 @@
+/* Variables */
+$main-color: rgb(76, 194, 194);
+$nav-height: 60px;
+$standard-font: 1.5rem;
+$title-font: 2.5rem;
+
 html {
   font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+/* Mixins */
+
+@mixin standardTransition($time) {
+  transition: all $time ease-in-out;
 }

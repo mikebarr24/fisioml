@@ -1,0 +1,48 @@
+@import "../../config";
+
+.navbar {
+  background-color: $main-color;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  min-height: $nav-height;
+  .nav-items {
+    z-index: 1000;
+    position: fixed;
+    display: flex;
+    transform: translateY(-100%);
+    background-color: $main-color;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    @include standardTransition(400ms);
+    &.active {
+      transform: translateY(0);
+    }
+  }
+  ul {
+    margin: auto;
+  }
+  li {
+    list-style: none;
+    font-size: $title-font;
+    font-weight: 600;
+    margin: 1.5rem 0;
+  }
+  .burger-button {
+    font-size: 3rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    span {
+      display: block;
+      height: 3px;
+      width: 26px;
+      background-color: black;
+      margin: 5px 0;
+      border-radius: 10px;
+    }
+  }
+}
