@@ -1,0 +1,18 @@
+@import "../../../config";
+
+#hero {
+  margin-top: $mob-nav-height;
+  min-height: calc(100vh - $mob-nav-height);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  background-color: $secondary-color;
+  .hero-button {
+    font-size: 1.5rem;
+    padding: 0.5rem 2rem;
+    background-color: $light-color;
+    margin: 1rem 0;
+  }
+}

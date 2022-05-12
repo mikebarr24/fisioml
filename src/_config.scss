@@ -1,8 +1,11 @@
 /* Variables */
-$main-color: rgb(76, 194, 194);
-$nav-height: 60px;
+$primary-color: rgb(76, 194, 194);
+$secondary-color: rgb(185, 185, 255);
+$light-color: white;
+$mob-nav-height: 60px;
 $standard-font: 1.5rem;
 $title-font: 2.5rem;
+$dark-font: black;
 
 html {
   font-family: "Montserrat", sans-serif;
@@ -16,13 +19,19 @@ html {
 }
 
 body {
-  overflow-y: scroll;
+  overflow-y: auto;
   overflow-x: hidden;
 }
 
 a {
   text-decoration: none;
   color: unset;
+}
+
+/* Standard Classes */
+
+.container {
+  padding: 0.5rem 1rem;
 }
 
 /* Mixins */

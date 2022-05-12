@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import { MdClose } from "react-icons/md";
+import { GrClose } from "react-icons/gr";
+import { IoLogoFacebook, IoLogoInstagram, IoLogoTwitter } from "react-icons/io";
 
 import "./Navbar.scss";
 function Navbar() {
@@ -12,12 +13,12 @@ function Navbar() {
       <h1>Logo Here</h1>
       <div className="nav-items">
         <ul>
-          <MdClose
+          <GrClose
             style={{
               position: "absolute",
               fontSize: "2.5rem",
-              top: "5",
-              right: "10px",
+              top: "20px",
+              right: "25px",
               cursor: "pointer",
             }}
             onClick={toggle}
@@ -29,6 +30,11 @@ function Navbar() {
           <li>Servicios</li>
           <li>Contacto</li>
         </ul>
+        <div className="nav-social">
+          <IoLogoFacebook />
+          <IoLogoTwitter />
+          <IoLogoInstagram />
+        </div>
       </div>
       <button className="burger-button" onClick={toggle}>
         <span></span>
