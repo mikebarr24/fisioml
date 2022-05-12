@@ -1,0 +1,21 @@
+@import "../../../config";
+
+.service-module {
+  z-index: 0;
+  position: relative;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+  overflow: hidden;
+  border-radius: 10px;
+
+  .service-title {
+    text-align: center;
+    padding: 0 1rem;
+    position: absolute;
+    bottom: 10px;
+    color: $light-color;
+  }
+}

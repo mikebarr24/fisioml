@@ -23,11 +23,15 @@ function Navbar() {
             }}
             onClick={toggle}
           />
-          <Link to="/">
+          <Link to="/" onClick={toggle}>
             <li>Inicio</li>
           </Link>
-          <li>Nosotros</li>
-          <li>Servicios</li>
+          <Link to="/" onClick={toggle}>
+            <li>Servicios</li>
+          </Link>
+          <Link to="/">
+            <li>Nosotros</li>
+          </Link>
           <li>Contacto</li>
         </ul>
         <div className="nav-social">

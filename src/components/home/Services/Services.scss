@@ -1,0 +1,5 @@
+@import "../../../config";
+
+#services {
+  min-height: calc(100vh - $mob-nav-height);
+}

@@ -10,8 +10,8 @@
   position: fixed;
   width: 100vw;
   min-height: $mob-nav-height;
+  z-index: 1000;
   .nav-items {
-    z-index: 1000;
     position: fixed;
     display: flex;
     transform: translateY(-100%);
