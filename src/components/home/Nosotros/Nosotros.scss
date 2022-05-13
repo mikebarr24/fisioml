@@ -1,0 +1,14 @@
+@import "../../../config";
+
+#nosotros {
+  width: 100%;
+  .nosotros-photo-wrapper {
+    text-align: center;
+    margin: 1rem 0;
+    .maria-image {
+      border-radius: 200px;
+      overflow: hidden;
+      max-width: 90%;
+    }
+  }
+}
