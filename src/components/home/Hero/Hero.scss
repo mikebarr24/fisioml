@@ -7,7 +7,11 @@
   flex-direction: column;
   justify-content: space-between;
   text-align: center;
-
+  background-image: url("../../../media/images/hero-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: 150px;
   .hero-text-wrapper {
     margin-top: 1rem;
   }
