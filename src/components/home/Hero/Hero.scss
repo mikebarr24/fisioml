@@ -2,6 +2,7 @@
 
 #hero {
   margin-top: $mob-nav-height;
+  scroll-margin-top: $mob-nav-height;
   min-height: calc(100vh - $mob-nav-height);
   display: flex;
   flex-direction: column;

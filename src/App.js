@@ -6,6 +6,7 @@ import PilatesSuelo from "./pages/PilatesSuelo";
 import PilatesMaquina from "./pages/PilatesMaquina";
 import MarchaNordica from "./pages/MarchaNordica";
 import StandingPilates from "./pages/StandingPilates";
+import Footer from "./components/Footer.js";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/marcha-nordica" element={<MarchaNordica />} />
         <Route path="/standing-pilates" element={<StandingPilates />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

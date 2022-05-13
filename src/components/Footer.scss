@@ -1,0 +1,15 @@
+@import "../config";
+
+.footer {
+  min-height: 200px;
+  background-color: rgb(219, 219, 219);
+  .footer-menu {
+    list-style: none;
+    text-align: center;
+    margin: 1rem 0;
+    li {
+      padding: 0.5rem 0;
+      font-size: 1.3rem;
+    }
+  }
+}
