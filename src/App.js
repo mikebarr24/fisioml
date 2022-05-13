@@ -7,9 +7,11 @@ import PilatesMaquina from "./pages/PilatesMaquina";
 import MarchaNordica from "./pages/MarchaNordica";
 import StandingPilates from "./pages/StandingPilates";
 import NosotrosPage from "./pages/NosotrosPage";
+import ScrollToTop from "./components/default/ScrollToTop";
 function App() {
   return (
     <div className="App">
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

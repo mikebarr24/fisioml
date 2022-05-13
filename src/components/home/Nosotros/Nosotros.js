@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import Button from "../../default/Button";
 import "./Nosotros.scss";
-import NosotrosPage from "../../../pages/NosotrosPage";
 
 function Nosotros() {
   return (
