@@ -1,3 +1,4 @@
+import Button from "../../default/Button";
 import "./Nosotros.scss";
 
 function Nosotros() {
@@ -8,7 +9,7 @@ function Nosotros() {
         Fisioterapeuta, Experta en el manejo del dolor músculo- esquelético,
         Máster en investigación de los trastornos del movimiento y alteración
         funcional, Instructora certificada de Pilates suelo, máquina y Marcha
-        Nórdica. Flautista.
+        Nórdica.
       </p>
       <div className="nosotros-photo-wrapper">
         <img
@@ -22,6 +23,7 @@ function Nosotros() {
           Fisioterapeuta
         </p>
       </div>
+      <Button name="Leer Mas" className="nosotros-button" />
     </section>
   );
 }

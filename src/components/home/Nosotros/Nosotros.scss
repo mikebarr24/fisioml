@@ -1,7 +1,12 @@
 @import "../../../config";
 
 #nosotros {
+  display: flex;
+  flex-direction: column;
   width: 100%;
+  background-image: url("../../../media/images/stroke-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
   .nosotros-photo-wrapper {
     text-align: center;
     margin: 1rem 0;
@@ -10,5 +15,12 @@
       overflow: hidden;
       max-width: 90%;
     }
+  }
+  .nosotros-button {
+    align-self: center;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    background-color: $primary-color;
+    margin-bottom: 1rem;
   }
 }
