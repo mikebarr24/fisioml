@@ -4,6 +4,18 @@ function NosotrosPage() {
   return (
     <div className="container nosotros-page">
       <h1 className="page-title">Nosotros</h1>
+      <div className="nosotros-page-photo-wrapper">
+        <img
+          className="maria-page-image"
+          src={require("./../media/images/maria-portrait-small.jpg")}
+          alt="maria foto"
+        />
+        <p>
+          <strong>María José López Pardo</strong>
+          <br />
+          Fisioterapeuta
+        </p>
+      </div>
       <p className="page-text">
         En 2015, tras llevar años trabajando como fisioterapeuta en España,
         decidí emigrar a Reino Unido en búsqueda de desarrollo profesional y
