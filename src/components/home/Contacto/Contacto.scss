@@ -1,8 +1,11 @@
-@import "../../config";
+@import "../../../config";
 
 #contacto {
   scroll-margin-top: $mob-nav-height;
   min-height: calc(100vh - $mob-nav-height);
+  background-image: url("../../../media/images/stroke-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
   .contact-title {
     text-align: center;
   }

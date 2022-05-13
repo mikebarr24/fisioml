@@ -1,5 +1,5 @@
-import Button from "../default/Button";
-import SocialIcons from "../default/SocialIcons";
+import Button from "../../default/Button";
+import SocialIcons from "../../default/SocialIcons";
 import "./Contacto.scss";
 import { BsQuestionCircle } from "react-icons/bs";
 
