@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { GrClose } from "react-icons/gr";
 import { IoLogoFacebook, IoLogoInstagram, IoLogoTwitter } from "react-icons/io";
+import { HashLink } from "react-router-hash-link";
 
 import "./Navbar.scss";
 function Navbar() {
@@ -26,13 +27,15 @@ function Navbar() {
           <Link to="/" onClick={toggle}>
             <li>Inicio</li>
           </Link>
-          <Link to="/" onClick={toggle}>
+          <HashLink smooth to="/#services" onClick={toggle}>
             <li>Servicios</li>
-          </Link>
+          </HashLink>
           <Link to="/">
             <li>Nosotros</li>
           </Link>
-          <li>Contacto</li>
+          <HashLink to="/#contacto" onClick={toggle}>
+            <li>Contacto</li>
+          </HashLink>
         </ul>
         <div className="nav-social">
           <IoLogoFacebook />

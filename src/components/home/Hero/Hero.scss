@@ -5,14 +5,17 @@
   min-height: calc(100vh - $mob-nav-height);
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-between;
   text-align: center;
-  background-color: $secondary-color;
+
+  .hero-text-wrapper {
+    margin-top: 1rem;
+  }
   .hero-button {
     font-size: 1.5rem;
     padding: 0.5rem 2rem;
-    background-color: $light-color;
-    margin: 1rem 0;
+    background-color: $primary-color;
+    color: $light-color;
+    margin: 0.5rem 0;
   }
 }

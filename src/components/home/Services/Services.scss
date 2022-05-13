@@ -1,5 +1,6 @@
 @import "../../../config";
 
 #services {
+  scroll-margin-top: $mob-nav-height;
   min-height: calc(100vh - $mob-nav-height);
 }
