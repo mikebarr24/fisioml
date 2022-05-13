@@ -3,13 +3,16 @@
 #contacto {
   scroll-margin-top: $mob-nav-height;
   min-height: calc(100vh - $mob-nav-height);
+  .contact-title {
+    text-align: center;
+  }
   .contact-form {
     display: flex;
     flex-direction: column;
   }
   .contact-question {
     font-size: 2rem;
-    margin-left: 1rem;
+    margin: 0 0.5rem;
   }
   .contact-text {
     margin: 1rem 0;

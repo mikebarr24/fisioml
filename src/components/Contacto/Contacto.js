@@ -6,8 +6,11 @@ import { BsQuestionCircle } from "react-icons/bs";
 function Contacto() {
   return (
     <section id="contacto" className="container">
-      <h1 className="section-title">
-        Contacto{" "}
+      <h1 className="section-title contact-title">
+        <span className="contact-question">
+          <BsQuestionCircle />
+        </span>
+        Contacto
         <span className="contact-question">
           <BsQuestionCircle />
         </span>
