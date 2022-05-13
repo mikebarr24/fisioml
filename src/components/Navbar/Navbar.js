@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 import { GrClose } from "react-icons/gr";
-import { IoLogoFacebook, IoLogoInstagram, IoLogoTwitter } from "react-icons/io";
 import { HashLink } from "react-router-hash-link";
-
 import "./Navbar.scss";
+import SocialIcons from "../default/SocialIcons";
+
 function Navbar() {
   const toggle = () => {
     document.querySelector(".nav-items").classList.toggle("active");
@@ -33,15 +33,11 @@ function Navbar() {
           <Link to="/">
             <li>Nosotros</li>
           </Link>
-          <HashLink to="/#contacto" onClick={toggle}>
+          <HashLink smooth to="/#contacto" onClick={toggle}>
             <li>Contacto</li>
           </HashLink>
         </ul>
-        <div className="nav-social">
-          <IoLogoFacebook />
-          <IoLogoTwitter />
-          <IoLogoInstagram />
-        </div>
+        <SocialIcons className="nav-social" />
       </div>
       <button className="burger-button" onClick={toggle}>
         <span></span>

@@ -1,0 +1,41 @@
+@import "../../config";
+
+#contacto {
+  scroll-margin-top: $mob-nav-height;
+  min-height: calc(100vh - $mob-nav-height);
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-question {
+    font-size: 2rem;
+    margin-left: 1rem;
+  }
+  .contact-text {
+    margin: 1rem 0;
+  }
+  input,
+  textarea {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: 1px solid gray;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+  }
+  .contact-button {
+    padding: 0.7rem;
+    background-color: $primary-color;
+    font-size: 1.2rem;
+    color: $light-color;
+  }
+  .contact-icons {
+    margin: 1rem 0;
+    font-size: 2.5rem;
+    text-align: center;
+    color: $primary-color;
+    * {
+      margin: 0 1rem;
+    }
+  }
+}
