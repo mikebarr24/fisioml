@@ -1,14 +1,18 @@
 import "./Services.scss";
 import { services as myServices } from "../../../services";
 import ServiceModule from "./ServiceModule";
+import React from "react";
 
 function Services() {
-  const services = myServices();
+  const [services, setServices] = React.useState([]);
+
+  React.useEffect(() => {
+    setServices(myServices());
+  }, []);
 
   const serviceOutput = services.map((item) => (
     <ServiceModule key={item.service} info={item} />
   ));
-
   return (
     <section id="services" className="container">
       <h1 className="section-title">Servicios</h1>
