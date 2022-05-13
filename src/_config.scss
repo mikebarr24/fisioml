@@ -1,5 +1,5 @@
 /* Variables */
-$primary-color: rgb(76, 194, 194);
+$primary-color: #3e98e4;
 $secondary-color: rgb(185, 185, 255);
 $light-color: white;
 $mob-nav-height: 60px;
@@ -40,6 +40,28 @@ button {
 
 .section-title {
   font-size: $title-font;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.page-section {
+  margin-bottom: 1rem;
+}
+
+.page-bullet-section {
+  background-color: $primary-color;
+  padding: 0.5rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  h2 {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+  }
+  ul {
+    padding-left: 1rem;
+  }
 }
 
 /* Mixins */
