@@ -1,6 +1,7 @@
 @import "../../../config";
 
 #nosotros {
+  scroll-margin-top: $mob-nav-height;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -16,11 +17,14 @@
       max-width: 90%;
     }
   }
-  .nosotros-button {
+  .nosotros-button-link {
     align-self: center;
-    padding: 1rem 2rem;
-    font-size: 1rem;
-    background-color: $primary-color;
-    margin-bottom: 1rem;
+    .nosotros-button {
+      align-self: center;
+      padding: 1rem 2rem;
+      font-size: 1rem;
+      background-color: $primary-color;
+      margin-bottom: 1rem;
+    }
   }
 }

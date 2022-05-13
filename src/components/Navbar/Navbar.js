@@ -30,9 +30,9 @@ function Navbar() {
           <HashLink smooth to="/#services" onClick={toggle}>
             <li>Servicios</li>
           </HashLink>
-          <Link to="/">
+          <HashLink smooth to="/#nosotros" onClick={toggle}>
             <li>Nosotros</li>
-          </Link>
+          </HashLink>
           <HashLink smooth to="/#contacto" onClick={toggle}>
             <li>Contacto</li>
           </HashLink>

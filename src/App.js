@@ -6,7 +6,7 @@ import PilatesSuelo from "./pages/PilatesSuelo";
 import PilatesMaquina from "./pages/PilatesMaquina";
 import MarchaNordica from "./pages/MarchaNordica";
 import StandingPilates from "./pages/StandingPilates";
-
+import NosotrosPage from "./pages/NosotrosPage";
 function App() {
   return (
     <div className="App">
@@ -18,6 +18,7 @@ function App() {
         <Route path="/pilates-maquina" element={<PilatesMaquina />} />
         <Route path="/marcha-nordica" element={<MarchaNordica />} />
         <Route path="/standing-pilates" element={<StandingPilates />} />
+        <Route path="/nosotros" element={<NosotrosPage />} />
       </Routes>
     </div>
   );

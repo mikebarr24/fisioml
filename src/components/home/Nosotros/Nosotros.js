@@ -1,5 +1,7 @@
+import { Link } from "react-router-dom";
 import Button from "../../default/Button";
 import "./Nosotros.scss";
+import NosotrosPage from "../../../pages/NosotrosPage";
 
 function Nosotros() {
   return (
@@ -23,7 +25,9 @@ function Nosotros() {
           Fisioterapeuta
         </p>
       </div>
-      <Button name="Leer Mas" className="nosotros-button" />
+      <Link to="/nosotros" className="nosotros-button-link">
+        <Button name="Leer Mas" className="nosotros-button" />
+      </Link>
     </section>
   );
 }
