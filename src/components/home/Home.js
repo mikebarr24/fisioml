@@ -1,4 +1,4 @@
-import Contacto from "../Contacto/Contacto";
+import Contacto from "./Contacto/Contacto";
 import Hero from "./Hero/Hero";
 import "./Home.scss";
 import Services from "./Services/Services";
