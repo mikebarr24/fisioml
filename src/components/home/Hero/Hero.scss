@@ -6,7 +6,7 @@
   min-height: calc(100vh - $mob-nav-height);
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   text-align: center;
   background-image: url("../../../media/images/hero-background.png");
   background-repeat: no-repeat;
