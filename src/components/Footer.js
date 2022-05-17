@@ -1,10 +1,11 @@
 import "./Footer.scss";
 import { HashLink } from "react-router-hash-link";
+import SocialIcons from "./default/SocialIcons";
 
 function Footer() {
   return (
     <footer className="footer container">
-      <h1>Logo Here</h1>
+      <h1 className="footer-logo">Logo Here</h1>
       <ul className="footer-menu">
         <HashLink smooth to="/#hero">
           <li>Inicio</li>
@@ -19,6 +20,7 @@ function Footer() {
           <li>Contacto</li>
         </HashLink>
       </ul>
+      <SocialIcons className="footer-social-icons" />
       <p>© Copyright FisioML {new Date().getFullYear()} </p>
     </footer>
   );
