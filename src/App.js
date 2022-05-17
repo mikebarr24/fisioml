@@ -8,6 +8,8 @@ import MarchaNordica from "./pages/MarchaNordica";
 import StandingPilates from "./pages/StandingPilates";
 import NosotrosPage from "./pages/NosotrosPage";
 import ScrollToTop from "./components/default/ScrollToTop";
+import Footer from "./components/Footer.js";
+
 function App() {
   return (
     <div className="App">
@@ -22,6 +24,7 @@ function App() {
         <Route path="/standing-pilates" element={<StandingPilates />} />
         <Route path="/nosotros" element={<NosotrosPage />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
